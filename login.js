@@ -15,3 +15,6 @@ signupBtn.onclick=function(){
     signupBtn.classList.remove('disable')
     signinBtn.classList.add('disable')
 }
+
+const showPassword= document.querySelector('#show-password');
+const Passwordfield= document.querySelector('#password');

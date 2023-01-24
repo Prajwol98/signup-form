@@ -97,5 +97,6 @@ color:#555;
     position:absolute;
     right:70px;
     bottom:139px;
-
+    cursor:pointer;
+    color:black;
 }
