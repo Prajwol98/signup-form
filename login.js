@@ -18,3 +18,10 @@ signupBtn.onclick=function(){
 
 const showPassword= document.querySelector('#show-password');
 const Passwordfield= document.querySelector('#password');
+
+showPassword.addEventListener('click',function(){
+    this.classList.toggle("fa-eye-slash");
+    const type=Passwordfield.getAttribute('type')
+    === 'password' ? 'text' : 'password';
+    Passwordfield.setAttribute('type', type)
+})
